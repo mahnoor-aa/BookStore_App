@@ -1,0 +1,85 @@
+.navbarDark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbarLight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; 
+    color: #000;
+}
+
+.nav {
+    display: flex;
+}
+  
+.logo a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.navLinks {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.navLinks li {
+    display: flex; 
+    align-items: center; 
+}
+
+.navLinks li a,
+.genreButton,
+.userEmail { 
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 4px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.genreButton {
+    background: none; 
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navLinks li a:hover,
+.genreButton:hover
+.userEmail {
+    color: #e1e1e1;
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+
+  .themeToggle {
+    background-color: var(--text-color-dark);
+    color: var(--text-color-light);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .themeToggle:hover {
+    background-color: #333;
+  }

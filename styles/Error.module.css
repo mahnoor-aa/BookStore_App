@@ -1,0 +1,34 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #FF0000;
+  }
+  
+  .message {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+    color: #000000;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  .link {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    color: #434343;
+  }
+  
